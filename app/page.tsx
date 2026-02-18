@@ -77,7 +77,7 @@ export default function Portfolio() {
       <section className="px-6 md:px-20 py-24 border-t border-gray-800">
         <h2 className="text-3xl font-semibold mb-10">How I Approach Problems</h2>
         <ul className="space-y-4 text-gray-300 max-w-3xl list-disc pl-6">
-          <li>Users rarely fail — systems fail to support recovery</li>
+          <li>Users rarely fail - systems fail to support recovery</li>
           <li>Behavior is more reliable than opinion</li>
           <li>Uncertainty destroys trust faster than delay</li>
           <li>Metrics should measure decisions, not activity</li>
@@ -100,7 +100,7 @@ export default function Portfolio() {
           meta={{ role: "Research, problem framing, solution design", duration: "2 weeks", type: "Independent study" }}
           nextQuestions={["Would guaranteed pickup reduce driver acceptance rate?","How does reliability score affect multi-app booking?"]}
           links={[
-            { label: "View Report PDF", url: "/docs/unstop1.pdf" },
+            { label: "View Report PDF", url: "/docs/Debabrata_sahoo_unstop.pdf" },
             { label: "Open Wireframe", url: "https://v0-ride-request-wireframe-no.vercel.app/" }
           ]}
         />
@@ -112,7 +112,7 @@ export default function Portfolio() {
           meta={{ role: "Research design, data analysis, insight extraction", duration: "1 week", type: "Independent study" }}
           nextQuestions={["Do recovery micro-tasks improve week-2 retention?","How does adaptive difficulty impact habit builders vs restart users?"]}
           links={[
-            { label: "View Report PDF", url: "/docs/learning-app-study.pdf" },
+            { label: "View Report PDF", url: "/docs/Why-Students-Stop-Using-Learning-Apps-After-the-First-Week.pdf" },
             { label: "View Responses", url: "https://docs.google.com/spreadsheets/d/1OFXcLrhc_H19RJBGgzuGOxN2ePhzHXoaT74v1SaB_84/edit?usp=sharing" },
             { label: "Interactive Simulation", url: "https://response-7w81.onrender.com/" }
           ]}
@@ -125,7 +125,7 @@ export default function Portfolio() {
           meta={{ role: "Usability evaluation, heuristic analysis, recommendations", duration: "3 days", type: "Independent study" }}
           nextQuestions={["Does removing app gate increase scholarship exploration?","Will pre-demo checklist reduce call duration and improve satisfaction?"]}
           links={[
-            { label: "View Report PDF", url: "/docs/leap-task.pdf" }
+            { label: "View Report PDF", url: "/docs/Leap_Task.pdf" }
           ]}
         />
       </section>
