@@ -27,7 +27,6 @@ export default function Portfolio() {
   // Smooth Scroll (Lenis)
   useEffect(() => {
     const lenis = new Lenis({
-      smooth: true,
       lerp: 0.08,
     });
     function raf(time) {
@@ -44,8 +43,6 @@ export default function Portfolio() {
       <motion.div
         style={{
           background: "radial-gradient(600px at var(--x) var(--y), rgba(255,255,255,0.12), transparent 60%)",
-          ['--x']: spotlightX,
-          ['--y']: spotlightY,
         }}
         className="pointer-events-none fixed inset-0 z-0"
       />
